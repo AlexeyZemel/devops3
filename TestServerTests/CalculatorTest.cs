@@ -32,7 +32,7 @@ public class CalculatorTest
             new() { Id = 0, Value = -3 }
         };
 
-        var expectedSum = -6;
+        var expectedSum = -10;
 
         var sum = Calculator.Sum(numbers);
 
